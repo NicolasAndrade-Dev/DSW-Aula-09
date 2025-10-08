@@ -70,20 +70,24 @@ python manage.py createsuperuser
 #####################
 # Inicia o servidor #
 #####################
-python manage.py runserver
+python manage.py runserver 9090
 # Pára o servidor (CTRL + C)
+python manage.py startapp contas
 
 
 ###############
 # Iniciar git #
 ###############
 git init
-git config --global user.name caiohamamura
-git config --global user.email caiohamamura@gmail.com
+git config --global user.name NicolasAndrade-Dev
+git config --global user.email nicolasazevedo.an@gmail.com
 echo ".venv" >> .gitignore
 echo "__pycache__" >> .gitignore
 git add .
 git commit -m "Primeiro commit"
+git remote add origin https://github.com/NicolasAndrade-Dev/DSW-Aula-09.git
+git push -u origin main
+
 
 ######################
 # Instalar extensões #

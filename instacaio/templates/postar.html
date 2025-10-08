@@ -5,7 +5,7 @@
 <form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ formulario|crispy }}
-    <input type="submit" value="Postar">
+    <input type="submit" value="Postar" class="btn btn-primary">
 </form>
 
 {% if form.errors %}
