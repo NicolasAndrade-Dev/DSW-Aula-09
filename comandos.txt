@@ -49,6 +49,15 @@ echo "pyjwt" >> requirements.txt
 # Instalar pacotes
 pip install -r requirements.txt
 pip freeze > requirements.txt
+pip install servestatic
+pip freeze > requirements.txt
+pip install uvicorn
+pip freeze > requirements.txt
+
+git add requirements.txt
+git commit -m "Adicionado uvicorn"
+git push
+
 
 ####################
 # Inicia o projeto #
