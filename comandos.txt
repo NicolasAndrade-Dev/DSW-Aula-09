@@ -53,6 +53,8 @@ pip install servestatic
 pip freeze > requirements.txt
 pip install uvicorn
 pip freeze > requirements.txt
+pip install python-dotenv
+pip freeze > requirements.txt
 
 git add requirements.txt
 git commit -m "Adicionado uvicorn"
